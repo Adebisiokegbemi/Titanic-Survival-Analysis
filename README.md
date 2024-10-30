@@ -24,6 +24,29 @@ Embarked: I  replaced the missing embarked with mode (S) as it is the highest oc
 Cabin: There  were lots of missing values in the cabin, so I excluded it in my analysis.
 Tickets: It has complex strings which on critical analysis it doesn’t answer my research questions.  I believe that doesn’t have a clear and direct relationship with survival rates and other key factors I intend to analyze, so I excluded it from my analysis.
 Fare: This shows the cost of each passenger's tickets, I rounded this up to 2 decimal place and format data type to currency (pounds) 
+
+
 ![image](https://github.com/user-attachments/assets/7364f2fc-cbe4-404f-8545-b5564b9779b5)
+<img width="892" alt="image" src="https://github.com/user-attachments/assets/65ff6ea9-3f7b-45a2-a3d1-e282b36b30b9">
+<img width="915" alt="image" src="https://github.com/user-attachments/assets/1cdc698c-bcdc-44a4-abbe-0ac109100b73">
 
+KEY INSIGHTS AND TRENDS
 
+Passenger Demography
+The average age of the passenger is  29. passenger age ranges from 0.4 (months) to 80 years old. Majority of the passenger were travelling in third class
+Passenger Survival Analysis
+Survival rate based on sex and age category
+Female had a significant higher survival rate 68% while Male has a survival rate of 32%. Women had a higher survival rate when compared to men. Young adults within the age category "18-29" has higher survival rate when compared to mid aged adults and seniors which account to approximately 38% of the passengers in the titanic dataset survived the titanic shipwreck. I believe the women and children first rule was enforced during the titanic evacuation and the social norms was widely followed in the cause of the event which eventually had a great impact on the survival rate of the titanic shipwreck. 
+Survival analysis based on passenger class
+On analysis, it was revealed that 1st class passengers has the highest survival rate of 40%, followed by third class passengers with 35%-, and second-class passengers with the lowest survival rate of  25%.
+
+Survival rate by Embarked Point
+Prior to thorough analysis, 72% of the total passenger boarded from Southampton making it the largest embarked point. 64% of the passengers that boarded from Southampton survived the titanic shipwreck with 61% being Female.
+
+Survival rate by passenger title
+Passenger title has a slight correlation with survival rates on the Titanic. However, this correlation was largely a reflection of broader factors such as gender and passenger class, which were primary determinants of survival probability. Titles associated with women, children, and higher social status generally corresponded with higher survival rates, while those associated with adult men typically had lower survival rates.
+![image](https://github.com/user-attachments/assets/fbe3d3fd-8539-46d9-ada1-a57ccecbd914)
+
+Survival rate by family size 
+Having family members on board slightly improved the survival rate of titanic, I believe this  was most pronounced for passengers with smaller families and those in 1st class. Larger families, especially in 3rd class, faced more challenges in surviving the the titanic. In addition, given that the enforced women and children first rule may have also played a role in these survival patterns, particularly benefiting families with children.
+![image](https://github.com/user-attachments/assets/98be03d9-a43b-4576-939d-2a523a381091)
